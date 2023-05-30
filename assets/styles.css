@@ -83,11 +83,9 @@ body {
     margin: 20px 30px 20px 30px;
 }
 
-
-
-#title{
-    font-size: 30px;
-    float: right;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 
