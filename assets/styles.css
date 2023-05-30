@@ -1,6 +1,99 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif,serif;
+    font-weight: 300;
+    
+}
+
+#logo {
+    color: black;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.header {
+
+    background: linear-gradient(-45deg, #9f22c5, #1b4054, #515151, #171e1d);
+    animation: backgroundtransition 8s ease-in-out infinite;
+    background-size: 400% 400%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+@keyframes backgroundtransition {
+
+    0% {
+        background-position: 0% 80%;
+    }
+
+    50% {
+        background-position: 80% 100%;
+    }
+
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#menu {
+    line-height: 20px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/
