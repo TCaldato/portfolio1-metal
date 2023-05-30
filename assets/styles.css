@@ -79,6 +79,19 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.section1 {    
+    margin: 20px 30px 20px 30px;
+}
+
+
+
+#title{
+    font-size: 30px;
+    float: right;
+}
+
+
+
 
 
 
