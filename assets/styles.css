@@ -76,24 +76,28 @@ body {
     border-bottom: 1px solid white;
 }
 
-.section1 {
+.section1, .section2, .section3, .section4, .section5 {
     display: flex;
     margin: 40px 40px 30px 40px;
 }
 
-#image1 {
+#image1, #image2, #image3,
+#image4,
+#image5 {
     width: 450px;
     height: 350px;
     border-radius: 10px;
 }
 
-#image1:hover {
-    animation-name: hero-zoom;
+#image1:hover, #image2:hover, #image3:hover,
+#image4:hover,
+#image5:hover {
+    animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
+@keyframes image-zoom {
     from {
         transform: scale(1);
     }
@@ -112,30 +116,14 @@ body {
     border-bottom: 1px solid black;
 }
 
-.first-text p {
+.first-text p, #metallica-text, #slayer-text,
+#megadeth-text,
+#anthrax-text {
     padding: 20px 20px 20px 30px;
     text-align: justify;
 }
 
-.section2 {
-    display: flex;
-}
-#image2 {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    opacity: 0.5;
-}
-#metallica-text {
-    font-size: 15px;
-    padding-top: 40px;
-    padding-left: 10px;
-    color: black;
-    position: relative;
-    text-align: justify;
-    
-}
+
 
 
 
