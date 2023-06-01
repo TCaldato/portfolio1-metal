@@ -25,7 +25,7 @@ body {
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #515151, #171e1d);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,12 +76,18 @@ body {
     border-bottom: 1px solid white;
 }
 
-.section1, .section2, .section3, .section4, .section5 {
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
     display: flex;
     margin: 40px 40px 30px 40px;
 }
 
-#image1, #image2, #image3,
+#image1,
+#image2,
+#image3,
 #image4,
 #image5 {
     width: 450px;
@@ -89,7 +95,9 @@ body {
     border-radius: 10px;
 }
 
-#image1:hover, #image2:hover, #image3:hover,
+#image1:hover,
+#image2:hover,
+#image3:hover,
 #image4:hover,
 #image5:hover {
     animation-name: image-zoom;
@@ -116,7 +124,9 @@ body {
     border-bottom: 1px solid black;
 }
 
-.first-text p, #metallica-text, #slayer-text,
+.first-text p,
+#metallica-text,
+#slayer-text,
 #megadeth-text,
 #anthrax-text {
     padding: 20px 20px 20px 30px;
@@ -149,25 +159,28 @@ body {
 
 /*footer*/
 
-footer {
-    height: 150px;
+footer, footer ul {
+    background: linear-gradient(-45deg, #9f22c5, #1b4054, #515151, #171e1d);
+    animation: backgroundcolor 8s ease-in-out infinite;
+    background-size: 400% 400%;
+    height: 70px;
 }
 
-.social-networks {
+.social-networks, h3 {
     text-align: center;
-
 }
 
+h3 {
+    font-family: 'Poltawski Nowy', serif;
+    color: white;
+    padding-top: 10px;
+}
 .social-networks li {
     display: inline;
 }
 
-.social-networks i
-
-/*icons*/
-    {
+.social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    padding: 20px 50px 30px 50px;
+    color: white;
 }
