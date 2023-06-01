@@ -21,7 +21,6 @@ body {
 }
 
 .header {
-
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #515151, #171e1d);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
@@ -32,7 +31,6 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-
 }
 
 @keyframes backgroundcolor {
@@ -50,7 +48,6 @@ body {
     }
 }
 
-
 #menu {
     font-size: 100%;
     letter-spacing: 3px;
@@ -59,12 +56,10 @@ body {
     color: white;
 }
 
-
 #menu li {
     float: right;
     list-style-type: none;
     margin: 10px;
-
 }
 
 #menu a {
@@ -76,30 +71,20 @@ body {
     border-bottom: 1px solid white;
 }
 
-.section1,
-.section2,
-.section3,
-.section4,
-.section5 {
+/*Sections*/
+
+.section1, .section2, .section3, .section4, .section5 {
     display: flex;
-    margin: 40px 40px 30px 40px;
+    margin: 60px 40px 30px 40px;
 }
 
-#image1,
-#image2,
-#image3,
-#image4,
-#image5 {
+#image1, #image2, #image3, #image4, #image5 {
     width: 450px;
     height: 350px;
     border-radius: 10px;
 }
 
-#image1:hover,
-#image2:hover,
-#image3:hover,
-#image4:hover,
-#image5:hover {
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover {
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -115,29 +100,36 @@ body {
     }
 }
 
-#title {
+#title, #big-four, #title2 {
     text-align: center;
     font-family: 'Poltawski Nowy', serif;
     text-transform: capitalize;
     font-size: 30px;
-    margin: 20px 30px 10px 30px;
+    margin: 20px 70px 10px 70px;
     border-bottom: 1px solid black;
+}
+#title2 {
+    margin: -35px 120px 10px 120px;
 }
 
 .first-text p,
-#metallica-text,
-#slayer-text,
-#megadeth-text,
 #anthrax-text {
     padding: 20px 20px 20px 30px;
     text-align: justify;
 }
 
+#metallica-text, #slayer-text, #megadeth-text {
+    padding: 0 20px 20px 30px;
+    text-align: justify;
+    margin: 0;
+}
 
-
-
-
-
+#image3 {
+    margin-top: 55px;
+}
+#image5 {
+    margin-top: 100px;
+}
 
 
 
@@ -159,14 +151,16 @@ body {
 
 /*footer*/
 
-footer, footer ul {
+footer,
+footer ul {
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #515151, #171e1d);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
     height: 70px;
 }
 
-.social-networks, h3 {
+.social-networks,
+h3 {
     text-align: center;
 }
 
@@ -175,6 +169,7 @@ h3 {
     color: white;
     padding-top: 10px;
 }
+
 .social-networks li {
     display: inline;
 }
