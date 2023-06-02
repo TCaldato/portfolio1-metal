@@ -131,6 +131,19 @@ body {
     margin-top: 100px;
 }
 
+/*Gallery*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
+
 
 
 
