@@ -164,7 +164,7 @@ body {
     margin-top: 100px;
 }
 
-/*Gallery*/
+/*Gallery page*/
 
 #photos {
     clear: both;
@@ -177,13 +177,14 @@ body {
     width: 100%;
 }
 
+/*Sign Up page*/
 
-
-
-
-
-
-
+#form-image img {
+    margin-top: 3px;
+    height: 395px;
+    width: 100%;
+    opacity: 0.2;
+}
 
 
 
