@@ -9,13 +9,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif, serif;
     font-weight: 300;
-
 }
 
 #logo {
     color: white;
     font-family: 'Poltawski Nowy', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 30px;
 }
@@ -24,7 +23,7 @@ body {
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #8e8d8d, black);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
-    height: 90px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +80,7 @@ body {
 .section4,
 .section5 {
     display: flex;
-    margin: 60px 40px 30px 40px;
+    margin: 60px 40px 10px 40px;
 }
 
 #image1,
@@ -144,7 +143,7 @@ body {
 
 .first-text p,
 #anthrax-text {
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 10px 30px;
     text-align: justify;
 }
 
@@ -153,7 +152,6 @@ body {
 #megadeth-text {
     padding: 5px 20px 20px 30px;
     text-align: justify;
-    margin: 0;
 }
 
 #image3 {
@@ -179,14 +177,61 @@ body {
 
 /*Sign Up page*/
 
-#form-image img {
-    margin-top: 3px;
-    height: 395px;
+.form-section {
+    clear: left;
+    background: url("/assets/images/form-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 422px;
+}
+
+.signup-form {
+    margin: 20px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 32%;
+    padding: 30px;
+}
+
+.signup-form>h2,
+#label-form {
+    font-family: 'Poltawski Nowy', serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
-    opacity: 0.2;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 2px;
+}
+
+.input:hover {
+    border-color: #f16c6b;
 }
 
 
+.button {
+    display: block;
+    margin-top: 15px;
+    border-radius: 2px;
+    padding: 10px 32px 10px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
 
 /*footer*/
 
@@ -206,7 +251,7 @@ h3 {
 h3 {
     font-family: 'Poltawski Nowy', serif;
     color: white;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .social-networks li {
@@ -215,6 +260,6 @@ h3 {
 
 .social-networks i {
     font-size: 160%;
-    padding: 20px 50px 30px 50px;
+    padding: 15px 50px 10px 50px;
     color: white;
 }
