@@ -23,13 +23,14 @@ body {
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #8e8d8d, black);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
-    height: 80px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 999;
+
 }
 
 @keyframes backgroundcolor {
@@ -179,21 +180,38 @@ body {
 
 .form-section {
     clear: left;
-    background: url("/assets/images/form-image.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 432px;
+    align-items: center;
+}
 
+.form-image {
+
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+.form-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 0;
 }
 
 .signup-form {
-    margin: 20px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
+    padding: 30px;
     position: absolute;
     left: 32%;
-    padding: 30px;
+    top: 17%;
 }
 
 .signup-form>h2,
@@ -224,24 +242,27 @@ body {
     padding: 10px 32px 10px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: white;
+    color: black;
     float: right;
 }
 
 .button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: black;
+    color: white;
 }
 
 /*footer*/
 
-footer,
-footer ul {
+footer {
     background: linear-gradient(-45deg, #9f22c5, #1b4054, #8e8d8d, black);
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
-    height: 70px;
+    height: 45px;
+    padding-bottom: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-networks,
@@ -252,6 +273,7 @@ h3 {
 h3 {
     font-family: 'Poltawski Nowy', serif;
     color: white;
+    font-size: 15px;
     padding-top: 5px;
 }
 
@@ -260,8 +282,8 @@ h3 {
 }
 
 .social-networks i {
-    font-size: 160%;
-    padding: 15px 50px 10px 50px;
+    font-size: 130%;
+    padding: 5px 50px 0px 50px;
     color: white;
 }
 
@@ -274,6 +296,8 @@ h3 {
         height: 100px;
         margin: auto;
         clear: both;
+        left: 50%;
+        margin-left: -512px;
     }
 
     .section1 {
@@ -295,17 +319,38 @@ h3 {
         margin-top: 200px;
     }
 
+    .signup-form {
+        left: 27%;
+        top: 27%;
+    }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
 
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 10px;
+    }
+
+    .signup-form {
+        left: 25%;
+        right: 10%;
+        top: 27%;
+    }
+
+    .social-networks i {
+        font-size: 100%;
+        padding: 5px 20px 0px 20px;
     }
 
 
@@ -314,19 +359,33 @@ h3 {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
 
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
     #logo {
-        font-size: 15px;
-        margin-left: 10px;
+        font-size: 10px;
+        margin: 10px 0 0 10px;
     }
 
     #menu {
         font-size: 80%;
         letter-spacing: 2px;
-        margin: 10px 10px 0 0;
-
     }
 
     #photos {
         column-count: 2;
+    }
+
+    .signup-form {
+        left: 2%;
+        right: 2%;
+        top: 27%;
+    }
+
+    .social-networks i {
+        font-size: 70%;
+        padding: 5px 10px 0px 10px;
     }
 }
