@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif, serif;
     font-weight: 300;
+
 }
 
 #logo {
@@ -188,21 +190,13 @@ body {
     align-items: center;
 }
 
-.form-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
+.form {
+    background-color: gray;
 }
 
 .signup-form {
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(22, 17, 17, 0.6);
     max-width: 400px;
     padding: 30px;
     position: absolute;
