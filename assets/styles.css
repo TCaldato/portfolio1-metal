@@ -77,7 +77,33 @@ body {
     border-bottom: 1px solid white;
 }
 
-.section1,
+
+#image1 {
+    
+    height: 600px;
+    width: 100%;
+    background:url("../assets/images/image4.webp") no-repeat center center;
+    margin:auto;
+    animation-name: image1-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes image1-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.section1 {    
+    margin: 30px 0 10px 0;
+}
+
 .section2,
 .section3,
 .section4,
@@ -86,7 +112,6 @@ body {
     margin: 60px 40px 10px 40px;
 }
 
-#image1,
 #image2,
 #image3,
 #image4,
@@ -97,7 +122,6 @@ body {
     margin-bottom: 10px;
 }
 
-#image1:hover,
 #image2:hover,
 #image3:hover,
 #image4:hover,
@@ -129,7 +153,14 @@ body {
     color: black;
 }
 
-#title,
+#title{
+    text-align: center;
+    font-family: 'Poltawski Nowy', serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0 70px 10px 70px;
+    border-bottom: 1px solid black;
+}
 #big-four,
 #title2 {
     text-align: center;
@@ -186,12 +217,13 @@ body {
 /*Sign Up page*/
 
 .form-section {
-    clear: left;
-    align-items: center;
+    margin: auto;    
 }
-
-.form {
-    background-color: gray;
+.image-form{
+    height: 960px;
+    width: 100%;
+    background: url("../assets/images/form-image.jpg") no-repeat center center;
+    background-size: cover;    
 }
 
 .signup-form {
@@ -200,15 +232,16 @@ body {
     max-width: 400px;
     padding: 30px;
     position: absolute;
-    left: 32%;
-    top: 17%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 .signup-form>h2,
 #label-form {
     font-family: 'Poltawski Nowy', serif;
     color: white;
-    margin-bottom: 20px;
+    
 }
 
 .input {
@@ -249,10 +282,10 @@ footer {
     animation: backgroundcolor 8s ease-in-out infinite;
     background-size: 400% 400%;
     height: 45px;
-    padding-bottom: 15px;
-    position: fixed;
+    padding-bottom: 15px;    
     bottom: 0;
     width: 100%;
+    position: fixed;
 }
 
 .social-networks,
