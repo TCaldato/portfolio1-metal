@@ -59,7 +59,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 #menu a {
@@ -75,15 +75,23 @@ body {
     border-bottom: 1px solid white;
 }
 
+.container{         
+    padding: 2% 10%
+}
+
+#first-image {
+    display: flex;
+    justify-content: center;
+
+}
+
 #image1 {    
-    height: 700px;
-    width: 80%;
-    background:url("../assets/images/image4.webp") no-repeat center center;  
     animation-name: image1-zoom;
     animation-duration: 2s;
-    margin: auto;
-    margin-top: 20px;
-    animation-fill-mode: forwards;  
+    animation-fill-mode: forwards;
+    width: 1200px;
+    height: 730px;
+    border-radius: 10px; 
 }
 
 @keyframes image1-zoom {
@@ -101,7 +109,7 @@ body {
 .section4,
 .section5 {
     display: flex;
-    margin: 20px 210px 60px 210px;
+    margin: 60px 30px;
 }
 
 #image2,
@@ -149,8 +157,8 @@ body {
     text-align: center;
     font-family: 'Poltawski Nowy', serif;
     text-transform: capitalize;
-    font-size: 45px;
-    margin: 70px 210px 10px 210px;
+    font-size: 40px;
+    margin: 30px 100px 10px 100px;
     border-bottom: 1px solid black;
 }
 #big-four,
@@ -159,18 +167,18 @@ body {
     font-family: 'Poltawski Nowy', serif;
     text-transform: capitalize;
     font-size: 40px;
-    margin: 100px 210px 50px 210px;
+    margin: 60px 210px 50px 210px;
     border-bottom: 1px solid black
 }
 
 .title2 {
-    margin: 0 120px 10px 120px;
+    margin: 0px 120px 10px 120px;
 }
 
 .first-text p {
-    margin: 0 150px;
+    margin: 0 50px;
     text-align: justify;
-    padding: 50px;
+    padding: 20px 40px 50px 40px;
     line-height: 1.5;
     font-size: 18px;
 }
@@ -178,7 +186,7 @@ body {
 #metallica-text,
 #slayer-text,
 #megadeth-text,#anthrax-text {
-    padding: 0 20px 20px 30px;
+    padding: 0 20px 0px 30px;
     text-align: justify;
     line-height: 1.5;
     font-size: 18px;
@@ -289,8 +297,8 @@ h3 {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For large to medium screens sizes from 1500px wide and down */
+@media screen and (max-width: 1500px) {
     .header {
         width: 100%;
         height: 100px;
@@ -300,23 +308,53 @@ h3 {
         margin-left: -512px;
     }
 
-    .section1 {
-        padding-top: 0;
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 30px;
     }
 
-    #image1,
-    #image2,
-    #image5 {
-        margin-top: 120px;
+    .section5 {
+        margin-bottom: 60px;
     }
 
+    .first-text p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 8px;
+    }
+    
+    #title {
+        font-size: 30px;
+        margin: 20px 30px;
+    }
+
+    .title2 {
+        margin-top: 20px;
+    }
+
+    .link-video {
+        font-size: 18px;
+    }
+
+    #image1, #image2,
     #image3,
-    #image4 {
-        margin-top: 160px;
+    #image4,
+    #image5 {        
+        width: 100%;
+        height: 100%;
+        animation-duration: 0s;
+        animation-fill-mode:none;
+        pointer-events: none;
     }
 
-    #image5 {
-        margin-top: 200px;
+    .social-networks i {
+        font-size: 100%;
+        padding: 5px 20px 0px 20px;
     }
 
 
@@ -342,7 +380,18 @@ h3 {
     .section5 {
         display: flex;
         flex-direction: column;
-        margin: 10px 10px 0px 10px;
+        margin: 10px;
+    }
+
+    .first-text p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 8px;
+    }
+    
+    #title {
+        font-size: 30px;
+        margin: 20px 30px;
     }
 
     .title2 {
@@ -350,18 +399,19 @@ h3 {
     }
 
     .link-video {
-        font-size: 15px;
-        margin-left: 280px;
+        font-size: 18px;
     }
 
-    #image1,
-    #image2,
+    #image1, #image2,
     #image3,
     #image4,
-    #image5 {
-        width: 540px;
-        height: 450px;
-        margin: 10px 0 5px 0;
+    #image5 {        
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        animation-duration: 0s;
+        animation-fill-mode:none;
+        pointer-events: none;
     }
 
     .social-networks i {
@@ -409,20 +459,17 @@ h3 {
     .section5{
         margin-bottom: 45px;
     }
-    #image1 {
-        width: 100%;
-        height: 200px;
-        background-size: 300px;
-    }
-    #image2,
+    #image1, #image2,
     #image3,
     #image4,
     #image5 {
+        animation-duration: 0s;
+        animation-fill-mode:none;
         width: 100%;
         height: 100%;
-        margin: 10px 5px 10px 5px;
+        margin: 10px;
     }
-
+    
     #title {
         font-size: 30px;
         margin: 20px 30px;
