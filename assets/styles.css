@@ -9,8 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif, serif;
-    font-weight: 300;
-
+    font-weight: 300;    
 }
 
 #logo {
@@ -51,10 +50,9 @@ body {
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 20px;
     letter-spacing: 3px;
-    font-family: 'Poltawski Nowy', serif;
-    margin-right: 40px;
+    font-family: 'Poltawski Nowy', serif;    
     color: white;
 }
 
@@ -77,18 +75,16 @@ body {
     border-bottom: 1px solid white;
 }
 
-
-#image1 {
-    
+#image1 {    
     height: 700px;
-    width: 100%;
-    background:url("../assets/images/image4.webp") no-repeat center center;
-    margin:20px;
+    width: 80%;
+    background:url("../assets/images/image4.webp") no-repeat center center;  
     animation-name: image1-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    margin: auto;
+    margin-top: 20px;
+    animation-fill-mode: forwards;  
 }
-
 
 @keyframes image1-zoom {
     from {
@@ -98,10 +94,6 @@ body {
     to {
         transform: scale(1.05);
     }
-}
-
-.section1 {    
-    margin: 30px 0 10px 0;
 }
 
 .section2,
@@ -116,8 +108,8 @@ body {
 #image3,
 #image4,
 #image5 {
-    width: 650px;
-    height: 550px;
+    width: 630px;
+    height: 530px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -143,9 +135,9 @@ body {
 
 .link-video {
     font-family: 'Poltawski Nowy', serif;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
-    margin-left: 77px;
+    padding-left: 10px;
     color: red;
 }
 
@@ -158,11 +150,11 @@ body {
     font-family: 'Poltawski Nowy', serif;
     text-transform: capitalize;
     font-size: 45px;
-    margin: 90px 210px 10px 210px;
+    margin: 70px 210px 10px 210px;
     border-bottom: 1px solid black;
 }
 #big-four,
-#title2 {
+.title2 {
     text-align: center;
     font-family: 'Poltawski Nowy', serif;
     text-transform: capitalize;
@@ -171,8 +163,8 @@ body {
     border-bottom: 1px solid black
 }
 
-#title2 {
-    margin: 10px 120px 10px 120px;
+.title2 {
+    margin: 0 120px 10px 120px;
 }
 
 .first-text p {
@@ -182,30 +174,14 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-#anthrax-text {
-    padding: 20px 20px 10px 30px;
-    text-align: justify;
-}
 
 #metallica-text,
 #slayer-text,
-#megadeth-text {
+#megadeth-text,#anthrax-text {
     padding: 0 20px 20px 30px;
     text-align: justify;
     line-height: 1.5;
     font-size: 18px;
-}
-
-#image3 {
-    margin-top: 42px;
-}
-
-#image5 {
-    margin-top: 100px;
-}
-
-#break {
-    padding-bottom: 100px;
 }
 
 /*Gallery page*/
@@ -307,7 +283,7 @@ h3 {
 
 .social-networks i {
     font-size: 130%;
-    padding: 5px 50px 0px 50px;
+    padding: 0 50px;
     color: white;
 }
 
@@ -343,10 +319,6 @@ h3 {
         margin-top: 200px;
     }
 
-    .signup-form {
-        left: 27%;
-        top: 20%;
-    }
 
 }
 
@@ -373,7 +345,7 @@ h3 {
         margin: 10px 10px 0px 10px;
     }
 
-    #title2 {
+    .title2 {
         margin-top: 20px;
     }
 
@@ -389,13 +361,7 @@ h3 {
     #image5 {
         width: 540px;
         height: 450px;
-        margin: 10px 0 5px 170px;
-    }
-
-    .signup-form {
-        left: 25%;
-        right: 20%;
-        top: 20%;
+        margin: 10px 0 5px 0;
     }
 
     .social-networks i {
@@ -431,43 +397,64 @@ h3 {
     .section5 {
         display: flex;
         flex-direction: column;
-        margin: 0px 15px 0px 5px;
+        margin: 0 18px 18px 10px;
     }
+    
+    .first-text p {
+        font-size: 18px;
+        padding: 10px;
+        margin: 3px;
+    }    
 
-    #image1,
+    .section5{
+        margin-bottom: 45px;
+    }
+    #image1 {
+        width: 100%;
+        height: 200px;
+        background-size: 300px;
+    }
     #image2,
     #image3,
     #image4,
     #image5 {
         width: 100%;
         height: 100%;
-        margin: 10px 5px 5px 5px;
+        margin: 10px 5px 10px 5px;
     }
 
-    #title,
+    #title {
+        font-size: 30px;
+        margin: 20px 30px;
+    }
+
     #big-four,
-    #title2 {
+    .title2 {
         font-size: 20px;
         margin: 10px 70px 10px 70px;
     }
 
     .link-video {
-        font-size: 10px;
-        margin-left: 25%;
+        font-size: 18px;
+        margin-left: 3px;
     }
 
     #photos {
         column-count: 2;
     }
 
-    .signup-form {
-        left: 10%;
-        right: 10%;
-        top: 20%;
+    .signup-form{
+        font-size: 15px;
+        padding: 15px;
+        width: 300px;
     }
 
     .social-networks i {
         font-size: 80%;
-        padding: 5px 10px 0px 10px;
+        padding: 0 10px;
+    }
+
+    footer {
+        height: 15px;
     }
 }
