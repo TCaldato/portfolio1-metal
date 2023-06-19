@@ -249,7 +249,7 @@ body {
 }
 
 .signup-form>h2,
-#label-form {
+.label-form {
     font-family: 'Poltawski Nowy', serif;
     color: white;
     
@@ -458,16 +458,19 @@ h3 {
     }
 
     #logo {
-        font-size: 15px;
-        margin: 10px 0 0 10px;
+        font-size: 10px;
+        margin: 15px 0 0 5px;
     }
 
     #menu {
-        font-size: 80%;
+        font-size: 60%;
         letter-spacing: 2px;
-        margin-left: 40px;
+        margin:auto;
     }
 
+    .container{         
+        padding: 2% 3%
+    }
     .section1,
     .section2,
     .section3,
