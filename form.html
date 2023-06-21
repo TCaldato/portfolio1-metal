@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/styles.css" />
+        <link rel="icon" href="assets/images/icon-head.jpg" />
+        <title>Metal</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="icon" href="assets/images/icon-head.jpg">
-    <title>Metal</title>
-</head>
+    <body class="image-form">
+        <header class="header">
+            <a href="index.html" id="logo">
+                <h1>Thrash Metal History</h1>
+            </a>
+            <!--Menu-->
+            <nav>
+                <ul id="menu">
+                    <li><a href="form.html" class="active">Sign Up</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body class="image-form">   
-    
-    <header class="header">
-        <a href="index.html" id="logo">
-            <h1>Thrash Metal History</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li><a href="form.html" class="active">Sign Up</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="index.html">Home</a></li>
+        <!--Only one section with the Form-->
+        <section>
+            <div class="form-section">
+                <form method="GET" class="signup-form" action="submitform.html">
+                    <h2>Sign up for news about Metal <i class="fa-brands fa-wolf-pack-battalion"></i></h2>
+                    <label for="fname" class="label-form">First Name</label>
+                    <input id="fname" name="first_name" type="text" required class="input" />
+
+                    <label for="lname" class="label-form">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required class="input" />
+
+                    <label for="email" class="label-form">Email Address</label>
+                    <input type="email" id="email" name="email_address" required class="input" />
+
+                    <input type="submit" class="button" />
+                </form>
+            </div>
+        </section>
+
+        <!--Footer with Social network icons-->
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"> <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="blank" rel="noopener" aria-label="Visit our Twitter Page (opens in a new tab)"> <i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="blank" rel="noopener" aria-label="Visit our YouTube Page (opens in a new tab)"> <i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"> <i class="fa-brands fa-instagram"></i></a>
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <section >
-        <div class="form-section"> 
-            <form method="GET" class="signup-form" action="submitform.html">
-                <h2>Sign up for news about Metal <i class="fa-brands fa-wolf-pack-battalion"></i></h2>
-                <label for="fname" class="label-form">First Name</label>
-                <input id="fname" name="first_name" type="text" required class="input">
-        
-                <label for="lname" class="label-form">Last Name</label>
-                <input id="lname" name="last_name" type="text" required class="input">
-        
-                <label for="email" class="label-form">Email Address</label>
-                <input type="email" id="email" name="email_address" required class="input">  
-                                
-                <input type="submit" class="button">
-                
-            </form>
-        </div>
-    </section>
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="blank" rel="noopener"
-                    aria-label="Visit our Facebook Page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="blank" rel="noopener"
-                    aria-label="Visit our Twitter Page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="blank" rel="noopener"
-                    aria-label="Visit our YouTube Page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="blank" rel="noopener"
-                    aria-label="Visit our Instagram Page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <script src="./script.js"></script>
-    <script src="https://kit.fontawesome.com/c6fcde1e44.js" crossorigin="anonymous"></script>
-</body>
-    
+        </footer>
+        <!--Icon for the Title on Sign Up Form-->
+        <script src="https://kit.fontawesome.com/c6fcde1e44.js" crossorigin="anonymous"></script>
+    </body>
 </html>
