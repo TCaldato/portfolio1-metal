@@ -165,9 +165,27 @@ It is imperative that the website maintains a consistent and responsive navigati
     - Feature - Create a page that allows users to express themselves, share their concert experiences, and even list the concerts they plan on attending in the future.
     - Reason for not featuring in this release - I did not have enough time to create this page before the submission date and my knowledge of using other programming languages is limited.
 
+## Technologies Used
+#### Main Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+
+#### Frameworks, Libraries & Programs Used
+
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the font "Poltawski Nowy" into the style.css file. This font were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing    
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+[Back to top](#Thrash Metal History)
 ## Testing
 
 Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+
 - **Issues and Bugs**
   The developer ran into several issues during the development of the website, with the noteworthy ones listed below along with solutions.
   - Header Bug - A bug was found in the header when adjusting pages for responsive view on screens less than 950px wide. The header didn't cover the entire width, leaving a white background behind. After checking the header code and finding no issue, I proceeded to check the CSS code after the heading. I discovered that the problem was caused by the width of the first image in the first section. I fixed the problem by setting the width to 1200px.
@@ -185,7 +203,7 @@ Testing information can be found in a separate testing [file](TESTING.md "Link t
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2Findex.html%3F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  - **Unfixed Bugs**
+- **Unfixed Bugs**
 
   - All of the bugs that were discovered have been resolved.
 
