@@ -178,9 +178,9 @@ Testing information can be found in a separate testing [file](TESTING.md "Link t
 
 - HTML
   - No errors were returned when passing the Home Page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2F)
-  - No errors were returned when passing the Gallery Page through the official [W3C validator](https://tcaldato.github.io/portfolio1-metal/gallery.html)
-  - No errors were returned when passing the Sign Up Page through the official [W3C validator](https://tcaldato.github.io/portfolio1-metal/form.html)
-  - No errors were returned when passing the Page After Sign Up through the official [W3C validator](https://tcaldato.github.io/portfolio1-metal/submitform.html?first_name=fadfadfad&last_name=fadfadfa&email_address=fadfadfa%40dgsfgsf)
+  - No errors were returned when passing the Gallery Page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2Fgallery.html)
+  - No errors were returned when passing the Sign Up Page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2Fform.html)
+  - No errors were returned when passing the Page After Sign Up through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2Fsubmitform.html%3Ffirst_name%3Ddfdsfds%26last_name%3Dfdfdfdf%26email_address%3Ddsfsdfds%2540sdfdsfsdf)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftcaldato.github.io%2Fportfolio1-metal%2Findex.html%3F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
