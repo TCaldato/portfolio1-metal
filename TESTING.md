@@ -8,4 +8,4 @@ This section will thoroughly assess all project features to ensure proper functi
 
 Manual testing was conducted on the following elements that appear on every page:
 
-[home testing](assets/testing-file/home-gradient-top-button.mp4)
+[Home testing](assets/testing-file/home-gradient-topbutton.gif)
