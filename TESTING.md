@@ -35,6 +35,8 @@ Manual testing was conducted on the following elements that appear on every page
 
  ![Instagram](assets/testing-file/instagram.gif)
 
+ [Back to top](#Thrash-Metal-History---Testing)
+
 ### Home Page
 
 - The Home Page is divided into five sections. The first section is the Introduction, and the remaining four sections are dedicated to the four Big Bands.
@@ -64,6 +66,8 @@ Manual testing was conducted on the following elements that appear on every page
 
  ![Home Responsiveness](assets/testing-file/respon-home.gif)
 
+ [Back to top](#Thrash-Metal-History---Testing)
+
 ### Thrash Metal Gallery Page
 
 - This page contains three columns of images from concerts and festivals.
@@ -75,6 +79,8 @@ Manual testing was conducted on the following elements that appear on every page
 
  ![Gallery Responsiveness](assets/testing-file/respon-gallery.gif)
 
+ [Back to top](#Thrash-Metal-History---Testing)
+
 ### Sign Up Page
 
 - The form can only be submitted if all fields are filled out:
@@ -85,6 +91,8 @@ Manual testing was conducted on the following elements that appear on every page
 
  ![Sign Up Responsiveness](assets/testing-file/respon-signup.gif)
 
+ [Back to top](#Thrash-Metal-History---Testing)
+
  ### After Submitting Page
 
 - After submitting the form, a message saying **Thanks for Submit** will appear, and a button will lead the user to the home page.
@@ -94,6 +102,8 @@ Manual testing was conducted on the following elements that appear on every page
 - The responsiveness of the After Sign Up page:
 
  ![After Sign Up Responsiveness](assets/testing-file/respon-after-signup.gif)
+
+ [Back to top](#Thrash-Metal-History---Testing)
 
 ### Browser Validation
 

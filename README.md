@@ -219,13 +219,13 @@ Testing information can be found in a separate testing [file](TESTING.md "Link t
 
  - To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
- **1.** Log into GitHub or create an account.
- **2.** Locate the GitHub Repository.
- **3.** At the top of the repository, select Settings from the menu items.
- **4.** Scroll down the Settings page to the "Pages" section.
- **5.** Under "Source" click the drop-down menu labeled "None" and select "Main".
- **6.** Upon selection, the page will automatically refresh meaning that the website is now deployed.
- **7.** Scroll back down to the "Pages" section to retrieve the deployed link.
+ 1. Log into GitHub or create an account.
+ 2. Locate the GitHub Repository.
+ 3. At the top of the repository, select Settings from the menu items.
+ 4. Scroll down the Settings page to the "Pages" section.
+ 5. Under "Source" click the drop-down menu labeled "None" and select "Main".
+ 6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+ 7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
 The live link can be found here - https://tcaldato.github.io/portfolio1-metal/
 
@@ -237,6 +237,7 @@ The live link can be found here - https://tcaldato.github.io/portfolio1-metal/
 
  - All the text used on the Home Page was borrowed and adapted from [Wikipedia](https://www.wikipedia.org/)
  - The Read Me was written based on Code Institute [Read Me Template](https://github.com/Code-Institute-Solutions/readme-template) and Irishbeck91 Read Me, which created the [Survival Guide Website](https://github.com/Irishbecky91/survival-guild/blob/main/README.md#Survival-Guild).
+ - My Mentor from Code Institute, Owonikoko Oluwaseun helped me a lot with the User Expirence and the website Design.
 #### Media
 
 - All Images were sourced from various photographers from [Pinterest](https://www.pinterest.com/) and [Google Images](https://images.google.com/).
@@ -250,4 +251,4 @@ The live link can be found here - https://tcaldato.github.io/portfolio1-metal/
     - [Stack Overflow](https://stackoverflow.com/)
     - [Blog HubSpot](https://blog.hubspot.com/)
 
-[Back to top](#Thrash-Metal-History)
+[Back to top](#thrash-metal-history)
