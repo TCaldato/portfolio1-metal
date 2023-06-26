@@ -72,6 +72,7 @@ The website needs to enable the **site manager** to:
     2. The Body, with the specific information related to each page;
     3. The Footer, with all the links for the Social Network pages.
 
+[Back to top](#Thrash-Metal-History)
 ### Design
 
 #### Color Scheme
@@ -80,12 +81,13 @@ The website needs to enable the **site manager** to:
 
 #### Typography
 
-- The typography pairing used on the site is [Poltawski Nowy]("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,700&display=swap"), imported from [Google Fonts](https://fonts.google.com/). A backup of Sans-Serif had been applied in case of import failure.
+- The typography pairing used on the site is [Poltawski Nowy]("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,700&display=swap"), imported from [Google Fonts](https://fonts.google.com/). In case the import fails, there is a backup of the Sans-Serif available.
 
 #### The information
 
 - The selected information about the Thrash Metal History and the Big Four Bands came from [Wikipedia](https://www.wikipedia.org/)
-  
+
+[Back to top](#Thrash-Metal-History)
 ## Features
 
 It is imperative that the website maintains a consistent and responsive navigation system throughout every page. For your convenience, detailed information regarding the available features of the site can be found below.
@@ -165,15 +167,17 @@ It is imperative that the website maintains a consistent and responsive navigati
     - Feature - Create a page that allows users to express themselves, share their concert experiences, and even list the concerts they plan on attending in the future.
     - Reason for not featuring in this release - I did not have enough time to create this page before the submission date and my knowledge of using other programming languages is limited.
 
+[Back to top](#Thrash-Metal-History)
 ## Technologies Used
 #### Main Languages Used
+
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
 #### Frameworks, Libraries & Programs Used
 
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
-    - Google fonts was used to import the font "Poltawski Nowy" into the style.css file. This font were used throughout the project.
+    - Google Fonts was used to import the font "Poltawski Nowy" into the style.css file. This font was used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
      - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [GitHub](https://github.com/ "Link to GitHub")
@@ -181,7 +185,8 @@ It is imperative that the website maintains a consistent and responsive navigati
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-[Back to top](#Thrash Metal History)
+[Back to top](#Thrash-Metal-History)
+
 ## Testing
 
 Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
@@ -189,7 +194,7 @@ Testing information can be found in a separate testing [file](TESTING.md "Link t
 - **Issues and Bugs**
   The developer ran into several issues during the development of the website, with the noteworthy ones listed below along with solutions.
   - Header Bug - A bug was found in the header when adjusting pages for responsive view on screens less than 950px wide. The header didn't cover the entire width, leaving a white background behind. After checking the header code and finding no issue, I proceeded to check the CSS code after the heading. I discovered that the problem was caused by the width of the first image in the first section. I fixed the problem by setting the width to 1200px.
-  - Back-to-top Button Bug - A bug was found in the Back-to-top Button, which was not appearing at all. The code used for the button was taken from [W3Schools](https://www.w3schools.com/#gsc.tab=0) which included JavaScript. I realize that similar to CSS, JavaScript has to be linked to an HTML page so, researching on the same website, I found how to link the script.js to index.html. Using <script src="./script.js"></script> resolves the issue.
+  - Back-to-top Button Issue - A bug was found in the Back-to-top Button, which was not appearing at all. The code used for the button was taken from [W3Schools](https://www.w3schools.com/#gsc.tab=0) which included JavaScript. I realize that similar to CSS, JavaScript has to be linked to an HTML page so, researching on the same website, I found how to link the script.js to index.html. Using <script src="./script.js"></script> resolves the issue.
   - Centralizing the Form - There was a bug when attempting to center the form on the Sign Up page, which occurred when making the page responsive. During a mentoring session with Owonikoko Oluwaseun, we found a solution on the [HubSpot](https://blog.hubspot.com/website/center-div-css) website using CSS properties such as position: absolute; left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%); the issue was successfully resolved.
 
 - **Validator Testing**
@@ -207,6 +212,42 @@ Testing information can be found in a separate testing [file](TESTING.md "Link t
 
   - All of the bugs that were discovered have been resolved.
 
-  ## Deployment
+[Back to top](#Thrash-Metal-History)
+## Deployment
 
-  ...
+  #### Deploying on GitHub Pages
+
+ - To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+ **1.** Log into GitHub or create an account.
+ **2.** Locate the GitHub Repository.
+ **3.** At the top of the repository, select Settings from the menu items.
+ **4.** Scroll down the Settings page to the "Pages" section.
+ **5.** Under "Source" click the drop-down menu labeled "None" and select "Main".
+ **6.** Upon selection, the page will automatically refresh meaning that the website is now deployed.
+ **7.** Scroll back down to the "Pages" section to retrieve the deployed link.
+
+The live link can be found here - https://tcaldato.github.io/portfolio1-metal/
+
+[Back to top](#Thrash-Metal-History)
+
+## Credits
+
+#### Content 
+
+ - All the text used on the Home Page was borrowed and adapted from [Wikipedia](https://www.wikipedia.org/)
+ - The Read Me was written based on Code Institute [Read Me Template](https://github.com/Code-Institute-Solutions/readme-template) and Irishbeck91 Read Me, which created the [Survival Guide Website](https://github.com/Irishbecky91/survival-guild/blob/main/README.md#Survival-Guild).
+#### Media
+
+- All Images were sourced from various photographers from [Pinterest](https://www.pinterest.com/) and [Google Images](https://images.google.com/).
+- All videos were linked directly to the Bands pages on [YouTube](https://www.youtube.com/).
+
+#### Code
+
+- To ensure proper implementation of the code, I conducted thorough research and consulted multiple websites. When using copied and edited code, I made sure to reference it properly. The following websites were frequently used during my research process:
+
+    - [W3Schools](https://www.w3schools.com/#gsc.tab=0)
+    - [Stack Overflow](https://stackoverflow.com/)
+    - [Blog HubSpot](https://blog.hubspot.com/)
+
+[Back to top](#Thrash-Metal-History)
